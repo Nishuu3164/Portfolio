@@ -1,11 +1,10 @@
-/* Reset some default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Basic styling */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -46,6 +45,11 @@ h2 {
     margin-bottom: 20px;
     font-family: georgia;
     text-shadow: 0rem 1rem 1rem #743c22cd;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
 }
 
 .project {
@@ -99,10 +103,14 @@ form button {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #333;
+    background-color: #582913cd;
     color: #fff;
     border: none;
     cursor: pointer;
+}
+
+form button:hover{
+    background-color: #743c22cd;
 }
 
 footer {
@@ -112,3 +120,4 @@ footer {
     color: #fff;
     box-shadow: 0rem -1rem 3rem #743c22cd;
 }
+
