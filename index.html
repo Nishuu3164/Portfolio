@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nishu - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
@@ -13,6 +14,13 @@
 
     <header>
         <div class="container">
+            <div class="nav-bar">
+                <a href="#about">about</a>
+                <a href="#projects">projects</a>
+                <a href="#education">education</a>
+                <a href="#skills">skills</a>
+                <a href="#contact">contact</a>
+            </div>
             <h1>Nishu Priya</h1>
             <p>Tech Student</p>
         </div>
@@ -39,21 +47,120 @@
             <div class="container-projects">
                 <div class="project" id="first">
                     <h3>Local Lore - Travel guide landing page</h3>
-                    <p>This a landing page for a travel guide website made using html, css and js.</p>
+                    <button><a href="http://"><i class="fab fa-github"></i> visit</a></button>
                 </div>
                 <div class="project" id="second">
                     <h3>Movie summary</h3>
-                    <p>This a landing page for an movie showing its description and other details about movie and the studio.</p>
+                    <button><a href="http://"><i class="fab fa-github"></i> visit</a></button>
                 </div>
                 <div class="project" id="third">
                     <h3>Portfolio</h3>
-                    <p>This a portfolio of me made for an internship it highlights my skills and provide connections for contact.</p>
+                    <button><a href="http://"><i class="fab fa-github"></i> visit</a></button>
                 </div>
                 <div class="project" id="fourth"> 
                     <h3>Calculator</h3>
-                    <p>This a simple calculator made to look minimal and stunning using html, css and js.</p>
+                    <button><a href="http://"><i class="fab fa-github"></i> visit</a></button>
                 </div>
                 <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+
+    <!--      Education    -->
+
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="container-education">
+                <div class="ed">
+                    <h3>Banasthali University</h3>
+                    <p><span>course:</span> B.Tech </p>
+                    <p><span>Passing year:</span> 2027 </p>
+                </div>
+                <div class="ed">
+                    <h3>BSEB</h3>
+                    <p><span>course:</span> 12th </p>
+                    <p><span>Passing year:</span> 2022 </p>
+                </div>
+                <div class="ed">
+                    <h3>ICSE</h3>
+                    <p><span>course:</span> 10th</p>
+                    <p><span>Passing year:</span> 2020 </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--    skills   -->
+
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="container-skills">
+                <div class="s">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML</span>
+                </div>
+                <div class="s">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS</span>
+                </div>
+                <div class="s">
+                    <i class="fab fa-js"></i></i>
+                    <span>JS</span>
+                </div>
+                <div class="s">
+                    <i class="fas fa-code"></i>
+                    <span>C</span>
+                </div>
+                <div class="s">
+                    <i class="fab fa-java"></i>
+                    <span>JAVA</span>
+                </div>
+                <div class="s">
+                    <i class="fab fa-python"></i>
+                    <span>PYTHON</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--    connect  -->
+
+
+    <section id="connect">
+        <div class="container">
+            <h2>Connect</h2>
+            <div class="container-skills">
+                <div>
+                    <a href="http://">
+                        <i class="fab fa-github"></i>
+                        <span>Git hub</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="http://">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="http://">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="http://">
+                        <i class="fab fa-discord"></i>
+                        <span>Discord</span>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -66,9 +173,9 @@
             <h2>Contact Me</h2>
             <div class="container-contact">
                 <div class="contact">
-                    <a href="mailto:nishupriya8699@gmail.com">nishupriya8699@gmail.com</a>
-                    <a href="tel:+91 1234567890">+91 1234567890</a>
-                    <address>Jaipur, Rajasthan</address>
+                    <a href="mailto:nishupriya8699@gmail.com"><i class="fas fa-envelope"></i> nishupriya8699@gmail.com</a>
+                    <a href="tel:+91 1234567890"><i class="fas fa-phone"></i> +91 1234567890</a>
+                    <address><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan</address>
                 </div>
                 <form id="contact-form">
                     <label for="name">Your name</label>
@@ -88,7 +195,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Nishu. All rights reserved.</p>
+            <p>&copy; 2024 Nishu. </p>
         </div>
     </footer>
 
