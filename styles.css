@@ -102,7 +102,9 @@ h2 {
     border-radius: 8px;
 }
 
-#first, #second, #third, #fourth{
+#first, #second, #third, #fourth,
+#fifth, #sixth, #seventh, #eighth,
+#ninth, #tenth{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -114,9 +116,9 @@ h2 {
 
 #first::before{
     content: '';
-    background: url(local-lore.jpg) no-repeat center center;
+    background: url(local-lore.png) no-repeat center center;
     background-size: cover;
-    opacity: .7;
+    opacity: .5;
     border-radius: 8px;
     position: absolute;
     top: 0;
@@ -131,7 +133,7 @@ h2 {
     content: '';
     background: url(movie.png) no-repeat center center;
     background-size: cover;
-    opacity: .7;
+    opacity: .5;
     border-radius: 8px;
     position: absolute;
     top: 0;
@@ -146,7 +148,7 @@ h2 {
     content: '';
     background: url(portfolio.png) no-repeat center center;
     background-size: cover;
-    opacity: .7;
+    opacity: .5;
     border-radius: 8px;
     position: absolute;
     top: 0;
@@ -161,7 +163,97 @@ h2 {
     content: '';
     background: url(calculator.png) no-repeat center center;
     background-size: cover;
-    opacity: .7;
+    opacity: .5;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+
+#fifth::before{
+    content: '';
+    background: url(Stopwatch.png) no-repeat center center;
+    background-size: cover;
+    opacity: .5;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+
+#sixth::before{
+    content: '';
+    background: url(TicTacToe.png) no-repeat center center;
+    background-size: cover;
+    opacity: .5;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+
+#seventh::before{
+    content: '';
+    background: url(TaskTracker.png) no-repeat center center;
+    background-size: cover;
+    opacity: .3;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+
+#eighth::before{
+    content: '';
+    background: url(Weather.png) no-repeat center center;
+    background-size: cover;
+    opacity: .5;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+
+#ninth::before{
+    content: '';
+    background: url(netflix-clone.png) no-repeat center center;
+    background-size: cover;
+    opacity: .5;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+
+#tenth::before{
+    content: '';
+    background: url(job-portal.png) no-repeat center center;
+    background-size: cover;
+    opacity: .5;
     border-radius: 8px;
     position: absolute;
     top: 0;
@@ -399,10 +491,13 @@ footer {
 
 @media (max-width: 500px) {
     .nav-bar{
-        margin-left: 3rem;
+        margin-left: 2rem;
     }
     .nav-bar a{
-        margin-right: 2rem;
+        margin-right: 1.5rem;
+    }
+    .project button{
+        visibility: visible;
     }
 
     .container-skills{
@@ -410,7 +505,7 @@ footer {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 2.2rem;
+        gap: 1.3rem;
     }
 
     .container-contact{
