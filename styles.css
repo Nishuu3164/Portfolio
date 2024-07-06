@@ -93,6 +93,29 @@ h2 {
     text-shadow: 0rem 1rem 1rem #743c22cd;
 }
 
+.download-btn {
+    display: inline-block;
+    color: #743c22cd;
+    border: 2px solid #743c22cd;
+    box-shadow: .5rem .5rem 1rem #743c22cd;
+    margin-top: 2rem;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: linear-gradient(to right, #dda78ecd 50%, #582913cd 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: background-position 0.3s ease-out;
+}
+.download-btn:hover {
+    background-position: right bottom;
+    color: #dda78ecd;
+}
+.download-btn i {
+    margin-right: 5px;
+}
 
 .project {
     margin-bottom: 20px;
