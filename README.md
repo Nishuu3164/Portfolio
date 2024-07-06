@@ -12,7 +12,7 @@ This project is a Portfolio webpage created by Nishu Priya as part of the Bharat
 
 
 # How to access
-Visit the live site: [Portfolio](https://Nishuu3164.github.io/portfolio)
+Visit the live site: [Portfolio](https://Nishuu3164.github.io/Portfolio)
 
 # clone
 ```sh
